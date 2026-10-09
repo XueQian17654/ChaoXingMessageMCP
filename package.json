@@ -1,0 +1,22 @@
+{
+  "name": "chaoxing-message-mcp",
+  "version": "0.1.0",
+  "description": "超星学习通消息 MCP 服务器：枚举会话、搜索消息、取上下文",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "cxm": "./src/cli.mjs"
+  },
+  "scripts": {
+    "postinstall": "node ./src/init-config.mjs",
+    "cxm": "node ./src/cli.mjs",
+    "set-user": "node ./src/cli.mjs set-user",
+    "mcp": "node ./src/mcp.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.61.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

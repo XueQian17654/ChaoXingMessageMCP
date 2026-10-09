@@ -1,0 +1,12 @@
+{
+  "user": {
+    "phone": "Your Phone Number",
+    "password": "Your Password"
+  },
+  "chromePath": "",
+  "headless": true,
+  "idleCloseMinutes": 10,
+  "syncTtlSeconds": 60,
+  "messagesDir": "messages",
+  "profileDir": "user-profile"
+}
